@@ -43,7 +43,7 @@ function App() {
       {!isValentine ? (
         <>
           <img src={firstImg} />
-          <h1>Will you be my Valentine? 💘</h1>
+          <h1>Sweet cheeks, will you be my Valentine? 💘</h1>
           <div>
             <button
               onClick={handleYes}
@@ -89,7 +89,9 @@ function App() {
               fontWeight: "bold",
             }}
           >
-            Yay!!! 💖🎉
+            {/* Yay!!! 💖🎉
+             */}
+            I love you so much, Kevvy! 💘
           </div>
         </>
       )}
